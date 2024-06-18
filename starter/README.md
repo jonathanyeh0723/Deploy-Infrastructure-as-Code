@@ -1,6 +1,8 @@
 # CD12352 - Infrastructure as Code Project Solution
 Deploy Infrastructure as Code by Jonathan
 
+![0](./screenshots/IaC_0_architect.png)
+
 ## Spin up instructions
 The folder hierarchy.
 ```
