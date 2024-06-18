@@ -13,6 +13,7 @@ The folder hierarchy.
 ├── network.yml
 ├── README.md
 ├── screenshots
+│   ├── IaC_0_architect.png
 │   ├── IaC_1_deploy.png
 │   ├── IaC_2_network.png
 │   ├── IaC_3_server.png
@@ -24,7 +25,7 @@ The folder hierarchy.
 ├── udagram-parameters.json
 └── udagram.yml
 
-1 directory, 15 files
+1 directory, 16 files
 
 ```
 
