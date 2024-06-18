@@ -1,6 +1,13 @@
 # CD12352 - Infrastructure as Code Project Solution
 Deploy Infrastructure as Code by Jonathan
 
+The LoadBalancer URL address is:
+```
+Udagra-WebAp-hZml20YWlfar-829100559.us-east-1.elb.amazonaws.com
+```
+
+The website is running correctly by displaying a page that says “It works! Udagram, Udacity”.
+
 ![0](./screenshots/IaC_0_architect.png)
 
 ## Spin up instructions
