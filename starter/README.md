@@ -16,12 +16,13 @@ The folder hierarchy.
 │   ├── IaC_3_server.png
 │   ├── IaC_4_lb.png
 │   ├── IaC_5_url.png
-│   └── IaC_6_delete.png
+│   ├── IaC_6_delete.png
+│   └── IaC_7_image.png
 ├── server_create.sh
 ├── udagram-parameters.json
 └── udagram.yml
 
-1 directory, 14 files
+1 directory, 15 files
 
 ```
 
@@ -90,9 +91,15 @@ After that, delete the network stack by:
 ./delete_stack.sh Network
 ```
 
-![5](./screenshots/IaC_6_delete.png)
+![6](./screenshots/IaC_6_delete.png)
 
 ## Other considerations
+To specify the cloud image id, navigate to https://cloud-images.ubuntu.com/locator/.
+
+Here's what we use for Amazon AWS.
+
+![7](./screenshots/IaC_7_image.png)
+
 Check the Network stack:
 ```
 aws cloudformation list-stack-resources --stack-name Network
